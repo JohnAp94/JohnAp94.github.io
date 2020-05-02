@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    color: white;
+}
+
+/* ----------Fin header-------------- */
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 270px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url('https://i.imgur.com/z9dkyxH.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-container {
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.hero-title-container {
+    align-self: flex-end;
+}
+
+.home-main-text {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 12px;
+    color: white;
+}
+
+.home-main-button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    height: 65px;   
+    padding: 0 20px; 
+    background-color: #47cfac;
+    border: none;
+    border-radius: 5px;
+}
