@@ -267,7 +267,7 @@ footer p {
 
 .perfil-main-new {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr;
     align-items: center;
 }

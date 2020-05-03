@@ -1,0 +1,109 @@
+@media (max-width: 900px){
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .blogs-news-img-container {
+        grid-row: 2;
+    }
+
+    .blogs-news-img-container img {
+        width: 100%;
+    }
+
+    .blogs-news-info-container {
+        grid-column: 1;
+        grid-row: 3;
+        text-align: center;
+    }
+
+    .blogs-posts-container .post-container {
+        max-width: 45%;
+        text-align: center;
+    }
+
+    .perfil-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        align-items: center;
+    }
+
+    .perfil-news-img-container {
+        grid-row: 2;
+    }
+    
+    .perfil-news-info-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .perfil-news-info-container h2, .perfil-news-info-container p {
+        padding-left: 0;
+    }
+
+    .proyect-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .perfil-posts-container .post-container {
+        max-width: 100%;
+    }
+
+    .contact-main-container .contact-left, .contact-right {
+        text-align: center;
+        margin-top: 85px;
+    }
+
+    .contact-main-container div{
+        width: 90%;
+    }
+
+    header {
+        display: block
+    }
+
+    header .header-icons-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .header-icons-container .icons{
+        padding-top: 3px;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0 20px 0 0;
+    }
+
+    .hero-container {
+        margin: 0 40px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .blogs-posts-container .post-container {
+        max-width: 95%;
+    }
+
+    .proyect-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .blogs-main {
+        display: block;
+    }
+
+    nav {
+        align-content: center;
+    }
+
+}
+
+@media (max-width: 450px) {
+    nav .nav-logo-container img {
+        width: 150px;
+    }
+}
