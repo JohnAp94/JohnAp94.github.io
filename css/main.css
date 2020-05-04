@@ -155,7 +155,7 @@ nav .profile-link a {
     grid-column: 1;
 }
 
-.blogs-news-img-container img {
+.blogs-news-img-container img, .blogs-news-img-container video {
     width: 85%;
 }
 
@@ -230,6 +230,12 @@ footer p {
 
 .blogpost-main-container h1 {
     font-size: 35px;
+}
+
+.blogpost-main-container video{
+    display: flex;
+    margin: 50px auto;
+
 }
 
 .contact-main-container {
