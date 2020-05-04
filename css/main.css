@@ -346,6 +346,6 @@ footer p {
     font-size: 30px;
 }
 
-.signup-form button {
-    margin-top: 20px;
+.signup-form .signup-button {
+    margin-top: 30px;
 }
