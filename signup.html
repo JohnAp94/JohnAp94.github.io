@@ -32,13 +32,16 @@
                     <a href="perfil.html">About me!</a>
                 </section>
             </nav>
-            <div class="hero-container">
+            <div class="signup-container">
                 <div class="hero-title-container grid-container">
-                    <p class="home-main-text">Learn about the news of the Tech world</p>
+                    <form action="send.php"  method="post" class="signup-form">
+                        <label for="first_name">Name</label>
+                        <input type="text" placeholder="Name" name="first_name" required>
+                        <label for="email">E-mail</label>
+                        <input type="text" placeholder="E-mail" name="email" required>
+                        <input class="home-main-button" type="submit" value="Go!">
+                    </form>
                 </div>
-                <button class="home-main-button">
-                    <a href="blogs.html">Come in now!</a>
-                </button>
             </div>
         </section>
     </main>

@@ -297,6 +297,10 @@ footer p {
     padding: 0 50px 40px;
 }
 
+.perfil-posts-container a {
+    border-bottom: 1px solid black;
+}
+
 .perfil-posts-container h2 {
     font-size: 35px;
     border-bottom: 1px solid #cdd2da;
@@ -322,4 +326,26 @@ footer p {
 
 .perfil-posts-container .post-container img {
     width: 100%;
+}
+
+.signup-container {
+    margin-top: 80px;
+}
+
+.signup-form {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+    grid-gap: 20px;
+}
+
+.signup-form label {
+    color: white;
+    font-size: 30px;
+}
+
+.signup-form button {
+    margin-top: 20px;
 }
