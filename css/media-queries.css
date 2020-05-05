@@ -106,4 +106,8 @@
     nav .nav-logo-container img {
         width: 150px;
     }
+
+    .hero-container p {
+        margin: 20px 0;
+    }
 }
